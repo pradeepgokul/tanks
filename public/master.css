@@ -1,0 +1,10 @@
+.game-content{
+  background: #f9f9f9;
+  height: 100vh;
+}
+
+#canvas{
+  border: 2px solid #ccc;
+  width: 800px;
+  height: 600px;
+}

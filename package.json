@@ -1,0 +1,30 @@
+{
+  "name": "tanks",
+  "version": "1.0.0",
+  "description": "nodejs experiment",
+  "main": "index.js",
+  "scripts": {
+    "dev": "babel-watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pradeepgokul/tanks.git"
+  },
+  "author": "Pradeep",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pradeepgokul/tanks/issues"
+  },
+  "homepage": "https://github.com/pradeepgokul/tanks#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-watch": "^2.0.7"
+  }
+}
